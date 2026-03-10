@@ -13,6 +13,7 @@ project:
 
 site:
   title: "Detección de Lavado de Dinero con ML"
+  base_url: /anti-money-laundering-ml
   options:
     logo: Docs/logo.png
     favicon: Docs/logo.png
