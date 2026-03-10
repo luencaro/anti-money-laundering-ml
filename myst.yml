@@ -1,0 +1,23 @@
+version: 1
+
+project:
+  title: "Detección de Lavado de Dinero con Machine Learning"
+  authors:
+    - name: Luis Cabarcas
+    - name: Natalia Frias
+    - name: Luis Cantillo
+  github: https://github.com/luencaro/anti-money-laundering-ml
+  toc:
+    - file: intro.md
+    - file: Machine_Learning_Final_Project.ipynb
+
+site:
+  title: "Detección de Lavado de Dinero con ML"
+  options:
+    logo: Docs/logo.png
+    favicon: Docs/logo.png
+  template: book-theme
+  nav: []
+  actions:
+    - title: Repositorio
+      url: https://github.com/luencaro/anti-money-laundering-ml
