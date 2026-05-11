@@ -8,8 +8,14 @@ project:
     - name: Luis Cantillo
   github: https://github.com/luencaro/anti-money-laundering-ml
   toc:
-    - file: intro.md
+    - file: README.md
     - file: Machine_Learning_Final_Project.ipynb
+    - file: Notebooks/Data_Prep.ipynb
+    - file: Notebooks/EDA.ipynb
+    - file: Notebooks/Naive_Bayes.ipynb
+    - file: Notebooks/Ridge.ipynb
+    - file: Notebooks/XGBoost.ipynb
+    - file: Notebooks/Comparacion_Benchmarks.ipynb
 
 site:
   title: "Detección de Lavado de Dinero con ML"
