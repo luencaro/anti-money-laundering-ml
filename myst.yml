@@ -9,13 +9,26 @@ project:
   github: https://github.com/luencaro/anti-money-laundering-ml
   toc:
     - file: README.md
-    - file: Machine_Learning_Final_Project.ipynb
-    - file: Notebooks/Data_Prep.ipynb
-    - file: Notebooks/EDA.ipynb
-    - file: Notebooks/Naive_Bayes.ipynb
-    - file: Notebooks/Ridge.ipynb
-    - file: Notebooks/XGBoost.ipynb
-    - file: Notebooks/Comparacion_Benchmarks.ipynb
+    - title: "Documentación y Metodología"
+      children:
+        - file: Docs/Metodologia_y_Conceptos.md
+    - title: "Preprocesamiento y Exploración"
+      children:
+        - file: Notebooks/Data_Prep_Adv.ipynb
+        - file: Notebooks/EDA.ipynb
+    - title: "Modelos"
+      children:
+        - file: Notebooks/Naive_Bayes.ipynb
+        - file: Notebooks/Logistic_Regression_L1_L2.ipynb
+        - file: Notebooks/Ridge.ipynb
+        - file: Notebooks/SVM.ipynb
+        - file: Notebooks/Desicion_Tree.ipynb
+        - file: Notebooks/XGBoost.ipynb
+        - file: Docs/Arquitectura_Modelo_Original.md
+        - file: Notebooks/Modelo_Original.ipynb
+    - title: "Resultados"
+      children:
+        - file: Notebooks/Comparacion.ipynb
 
 site:
   title: "Detección de Lavado de Dinero con ML"
